@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS `cat_aspectos` (
 	`id` int NOT NULL AUTO_INCREMENT,
 	`nombre` varchar(550) NOT NULL,
-	`descripcion` varchar(550) NOT NULL,
+	`descripcion` varchar(1000) NOT NULL,
 	`id_caracteristica` int NOT NULL,
 	PRIMARY KEY (`id`)
 ) ENGINE InnoDB,
@@ -467,40 +467,14 @@ CREATE TABLE IF NOT EXISTS `tbl_usuario` (
   CHARSET utf8mb4,
   COLLATE utf8mb4_0900_ai_ci;
 
-ALTER TABLE tbl_resultado_aprendizaje
-ADD COLUMN id_proceso BIGINT;
-
-ALTER TABLE tbl_resultado_aprendizaje
-ADD FOREIGN KEY (id_proceso) REFERENCES tbl_proceso(id);
-
-ALTER TABLE tbl_resultado_aprendizaje
-ADD CONSTRAINT fk_resultado_aprendizaje_proceso
-FOREIGN KEY (id_proceso) REFERENCES tbl_proceso(id);
-
 ALTER TABLE `cat_resultado_aprendizaje`
 ADD COLUMN id_proceso BIGINT;
-
-ALTER TABLE cat_resultado_aprendizaje
-ADD CONSTRAINT fk_cat_resultado_aprendizaje_proceso
-FOREIGN KEY (id_proceso) REFERENCES tbl_proceso(id);
 
 ALTER TABLE `tbl_comite_programa`
 ADD COLUMN id_proceso BIGINT;
 
-ALTER TABLE tbl_comite_programa
-ADD CONSTRAINT fk_tbl_comite_programa_proceso
-FOREIGN KEY (id_proceso) REFERENCES tbl_proceso(id);
-
 ALTER TABLE `tbl_responsable_acreditacion`
 ADD COLUMN id_proceso BIGINT;
 
-ALTER TABLE tbl_responsable_acreditacion
-ADD CONSTRAINT fk_tbl_responsable_acreditacion_proceso
-FOREIGN KEY (id_proceso) REFERENCES tbl_proceso(id);
-
 ALTER TABLE `tbl_cronograma_actividades`
 ADD COLUMN id_proceso BIGINT;
-
-ALTER TABLE tbl_responsable_acreditacion
-ADD CONSTRAINT fk_tbl_cronograma_actividades_proceso
-FOREIGN KEY (id_proceso) REFERENCES tbl_proceso(id);

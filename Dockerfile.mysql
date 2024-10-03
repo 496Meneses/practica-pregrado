@@ -1,0 +1,6 @@
+# Usar la imagen oficial de MySQL
+FROM mysql:8
+
+# Copiar el archivo db.sql al directorio de inicialización de MySQL
+COPY src/main/resources/bd.sql /docker-entrypoint-initdb.d/
+COPY src/main/resources/inserts.sql /docker-entrypoint-initdb.d/

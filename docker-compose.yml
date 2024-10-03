@@ -1,16 +1,18 @@
 version: '3.3'
 
 services:
-  mysql8:
-    image: mysql:8
+  database:
+    build:
+      context: .
+      dockerfile: Dockerfile.mysql  # Usar el Dockerfile personalizado
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: unicauca
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
     ports:
       - "3308:3306"
-    environment:
-      MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: unicauca
-    command: --default-authentication-plugin=mysql_native_password
-    volumes:
-      - mysql_data:/var/lib/mysql
     networks:
       - spring
   unicauca:
@@ -25,7 +27,7 @@ services:
     networks:
       - spring
     depends_on:
-      - mysql8
+      - database
     restart: always
 volumes:
   mysql_data:
