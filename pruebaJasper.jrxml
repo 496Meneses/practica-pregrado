@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.3.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="pruebaJasper" pageWidth="612" pageHeight="792" columnWidth="470" leftMargin="71" rightMargin="71" topMargin="71" bottomMargin="71" uuid="143d8b8c-039c-4303-81e2-5581404374aa">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 10_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 10_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 10_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 11_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 11_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 11_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 12_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 12_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 12_TD" mode="Opaque" backcolor="#FBD4B4">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 121_TD.1" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="asignaturas" uuid="332b31ab-b36c-44cc-b923-4aa8439ded5e">
+		<field name="id" class="java.lang.Long"/>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="creditos" class="java.lang.Integer"/>
+	</subDataset>
+	<subDataset name="asignatura_tbl" uuid="a6282454-5830-4962-af1b-9cdcc7165c13">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="responsable_proceso_autoevaluacion" uuid="1214fe85-8105-4f5c-a2b5-0a8191ab9a89">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombreResponsable" class="java.lang.String"/>
+		<field name="cargo" class="java.lang.String"/>
+		<field name="dependenciaAdscrito" class="java.lang.String"/>
+		<field name="telefono" class="java.lang.String"/>
+		<field name="email" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="cronograma_actividades" uuid="11b5ab93-3c9b-46db-a0be-42ec85b4e34b">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="descripcion" class="java.lang.String"/>
+		<field name="fechaInicio" class="java.lang.String"/>
+		<field name="fechaFin" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="documentales" uuid="6b9533a1-1728-4f72-b430-c46f030c2608">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="tipoFuente" class="java.lang.String"/>
+		<field name="descripcion" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="ponderacionFactores" uuid="d78511d4-14c9-40ec-98e2-a73a83d2374d">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="ponderado" class="java.math.BigDecimal"/>
+		<field name="justificacion" class="java.lang.String"/>
+		<variable name="sumaPonderado" class="java.math.BigDecimal" calculation="Sum">
+			<variableExpression><![CDATA[$F{ponderado}]]></variableExpression>
+		</variable>
+	</subDataset>
+	<subDataset name="ponderacionCaracteristicas" uuid="1a305820-980d-490e-a56c-820ce66f4a16">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="ponderado" class="java.math.BigDecimal"/>
+		<field name="justificacion" class="java.lang.String"/>
+		<field name="factor" class="java.lang.String"/>
+		<variable name="totalPonderado" class="java.math.BigDecimal" calculation="Sum">
+			<variableExpression><![CDATA[$F{ponderado}]]></variableExpression>
+		</variable>
+	</subDataset>
+	<subDataset name="escalaCalificacion" uuid="80118b17-aa9d-4839-979b-3c537a076824">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<parameter name="gradoCumplimiento" class="java.lang.String"/>
+		<parameter name="calNoNumerica" class="java.lang.String"/>
+		<parameter name="calNumericaDesde" class="java.math.BigDecimal"/>
+		<parameter name="calNumericaHasta" class="java.math.BigDecimal"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="gradoCumplimiento" class="java.lang.String"/>
+		<field name="calNoNumerica" class="java.lang.String"/>
+		<field name="calNumericaDesde" class="java.math.BigDecimal"/>
+		<field name="calNumericaHasta" class="java.math.BigDecimal"/>
+		<field name="calPorcentajeDesde" class="java.math.BigDecimal"/>
+		<field name="calPorcentajeHasta" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="profesores" uuid="1a9ffd2a-ea5b-4cea-899e-ab89d088f238">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombres" class="java.lang.String"/>
+		<field name="apellidos" class="java.lang.String"/>
+		<field name="anosExpDocente" class="java.lang.String"/>
+		<field name="tipoDeVinculacion" class="java.lang.String"/>
+		<field name="aniosExperienciaProfesional" class="java.lang.String"/>
+		<field name="escalafon" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="comite" uuid="080d07ab-0e8a-49cd-9354-01373403d159">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombreIntegrante" class="java.lang.String"/>
+		<field name="cargo" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="responsables" uuid="fc3334fd-1952-474f-98f2-b94386b6bab7">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombreResponsable" class="java.lang.String"/>
+		<field name="cargo" class="java.lang.String"/>
+		<field name="telefono" class="java.lang.String"/>
+		<field name="email" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="noDocumentales" uuid="467912ef-69de-4e70-896b-52bd110ff03d">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="tipoFuente" class="java.lang.String"/>
+		<field name="tipoPublico" class="java.lang.String"/>
+		<field name="descripcion" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="lista" uuid="ea586705-9b15-4ad2-a813-fa4361cd194c">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="Dataset1" uuid="02144041-b2f3-48d9-9c99-2d53a615b543">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="titulosFactoresYCaracteristicas" uuid="4ffc5b84-f4e3-472a-b6c6-188fc4a6211e">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="factor" class="java.lang.String"/>
+		<field name="listaCaracteristicas" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+		<field name="idFactor" class="java.lang.Long"/>
+	</subDataset>
+	<subDataset name="caracteristicas" uuid="f812bba6-db21-42e0-a0e1-4d299bb55712">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombreCaracteristica" class="java.lang.String"/>
+		<field name="idCaracteristica" class="java.lang.Long"/>
+	</subDataset>
+	<subDataset name="resultadosAutoevaluacion" uuid="9d02b3b2-5b70-4aba-a141-1652c05b6541">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="factor" class="java.lang.String"/>
+		<field name="listaCaracteristicas" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+		<field name="idFactor" class="java.lang.Long"/>
+		<field name="apreciacionGlobalFactor" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	</subDataset>
+	<subDataset name="listaDeCaracteristicas" uuid="5dfab0d1-d225-4ccf-8f73-deb0215f270f">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombreCaracteristica" class="java.lang.String"/>
+		<field name="listaAspectos" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+		<field name="idCaracteristica" class="java.lang.Long"/>
+		<variable name="gradoCumplimiento" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="tablaAspectos" uuid="20ee0eca-3c98-4cba-8d5d-843e3bf0b5c1">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="aspecto" class="java.lang.String"/>
+		<field name="ponderacion" class="java.math.BigDecimal"/>
+		<field name="calificacion" class="java.math.BigDecimal"/>
+		<variable name="totalEvaluacion" class="java.math.BigDecimal" calculation="Average">
+			<variableExpression><![CDATA[$F{ponderacion}.doubleValue() * $F{calificacion}.doubleValue() / 100]]></variableExpression>
+		</variable>
+	</subDataset>
+	<subDataset name="apreciacionFactor" uuid="522d3b71-b616-4879-a7af-ef9eb157de78">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="desCaracteristica" class="java.lang.String"/>
+		<field name="ponderado" class="java.math.BigDecimal"/>
+		<field name="calificacion" class="java.math.BigDecimal"/>
+		<field name="evaluacion" class="java.math.BigDecimal"/>
+		<field name="calificacionNoNumerica" class="java.lang.String"/>
+	</subDataset>
+	<parameter name="asignaturasDTO" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="dsComite" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="dsCronogramaActividades" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="metodologia" class="java.lang.String"/>
+	<parameter name="objetivo" class="java.lang.String"/>
+	<parameter name="dsDocumentales" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="dsPonderacionFactores" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="dsPonderacionCaracteristicas" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="dsEscalaCalificacion" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="resenaHistorica" class="java.lang.String"/>
+	<parameter name="dsProfesores" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="infraestructuraDelPrograma" class="java.lang.String"/>
+	<parameter name="recusosBibliografico" class="java.lang.String"/>
+	<parameter name="recursosInformaticos" class="java.lang.String"/>
+	<parameter name="bibliotecasUniversidad" class="java.lang.String"/>
+	<parameter name="bibliotecasFacultad" class="java.lang.String"/>
+	<parameter name="dsResponsables" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="dsNoDocumentales" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="tituloFactoresYCaracteristicas" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<parameter name="resultadosEvaluacion" class="net.sf.jasperreports.engine.data.JRBeanArrayDataSource"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="60" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER}.compareTo( 1 )!=0]]></printWhenExpression>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="-40" width="468" height="50" forecolor="#000000" uuid="b67974cc-d1ee-4160-98e8-d5d96033de45"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["INFORME DE AUTOEVALUACIÓN CON FINES DE RENOVACIÓN DE AREDITACIÓN DE ALTA CALIDAD DEL PROGRAMA:"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="50">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+		</band>
+		<band height="536" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="-2" y="-50" width="469" height="124" forecolor="rgba(255, 255, 255, 0.0)" backcolor="#030000" uuid="e6a544a3-59bf-4406-9fb4-4e63b1593c36"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="-34" width="462" height="92" forecolor="#FFFFFF" uuid="7f6d4be8-2645-4e59-9103-d0dda5359794"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GUÍA PARA ELABORACIÓN DEL INFORME DE AUTOEVALUACIÓN CON FINES DE ACREDITACIÓN O RENOVACIÓN DE ACREDITACIÓN DE PROGRAMAS ACADÉMICOS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="95" y="100" width="273" height="220" uuid="96cce40f-3dc4-465f-a2c5-0c2157136054"/>
+				<imageExpression><![CDATA["Escudo.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="12" y="360" width="438" height="30" uuid="2199186e-fbe9-42a3-b9a2-a811dc3ee846"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Universidad del Cauca"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="536">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="2" y="190" width="468" height="30" uuid="5b5ede1f-e9cf-4b59-8860-679211a47cc2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Universidad del Cauca"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="230" width="470" height="30" uuid="18e4918e-63fc-459a-b98f-73508b2fcbb3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Centro de Gestión de la Calidad y la Acreditación Institucional"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="310" width="468" height="50" uuid="5a2ee47d-b61a-4fa4-9e27-18f4d1aea8df"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Informe de autoevaluación con fines de renovación de alta calidad del programa del programa"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="460" width="469" height="30" uuid="cd4ff2ba-0a76-49cc-bed5-44fe5b9d5ab5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Popayán"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="144" y="20" width="175" height="150" uuid="e0447799-d5e1-4089-a8f7-aba04a3e5286"/>
+				<imageExpression><![CDATA["Escudo.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="StretchHeight" pattern="MMMM d, yyyy">
+				<reportElement x="2" y="496" width="468" height="30" uuid="2fbb0858-16ed-47de-9256-8c72ff5274b2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="536">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="2" y="190" width="467" height="20" uuid="5b516cd9-8634-4d70-b761-a0cf42076574"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Deibar René Hurtado Herrera"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="2" y="210" width="467" height="20" uuid="a3380991-7060-4b14-b6ae-b81dccc679ef"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Director"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="3" y="260" width="467" height="20" uuid="4b3565fb-42e4-4fbc-961f-95935c208b67"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vicerrectora Académica"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="3" y="240" width="467" height="20" uuid="45a6e990-1713-47fa-a386-09a3ad5c81d1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Aida Patricia González Nieva"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="2" y="290" width="467" height="20" uuid="4f2a39fa-7661-43c0-a5ee-dc1ef5bd644c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Jorge Enrique Barrera Moreno"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="320" width="467" height="20" uuid="18cedd10-d1e1-4569-94bf-2a43e7f8b5f2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vicerrectora Administrativo"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="1" y="350" width="467" height="20" uuid="658308fa-0ac0-482a-92eb-e17bcd38dace"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Carlos Alberto Cobos"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="-1" y="370" width="467" height="20" uuid="ffbd8f4d-cb4e-4aa0-a088-485406bde0c0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vicerrectora de investigaciones"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="430" width="470" height="20" uuid="38735a17-4004-43db-9406-b2de99bc4775"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vicerrectora de Cultura y Bienestar"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="-1" y="410" width="467" height="20" uuid="d7fd67bf-60aa-4cf2-99fa-0557b8dccf35"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["César Alfaro Mosquera Dorado"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="-2" y="460" width="467" height="20" uuid="29fef978-89b4-4374-860c-5f3a122b934e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Laura Ismenia Castellanos Vivas"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="1" y="480" width="466" height="20" uuid="56c08b8b-fdcc-4ea8-83b0-13299e19bacf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Secretaria General"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="136" y="10" width="183" height="149" uuid="b5b13b57-89cb-44b0-956e-8c41c0c8eddb"/>
+				<imageExpression><![CDATA["Escudo.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="300">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="30" width="467" height="20" uuid="0c4cc04e-6ca1-4263-9b9a-4995794501c4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1. INFORMACIÓN GENERAL"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="0" y="60" width="468" height="20" uuid="aeea197f-c8b3-46e9-8ecd-38cd24dca855"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.1 Reseña histórica del programa"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="10" y="90" width="458" height="20" uuid="1f57e902-5246-4748-9707-4de30f237149"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{resenaHistorica}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="0" y="120" width="468" height="20" uuid="ce614e7c-7ee0-49f5-a7f6-f71b6571c7f3"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.2 Plan de estudios"]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="150" width="468" height="60" uuid="d996110b-582d-4f79-b072-497d1599f95c">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 1_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 1_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 1_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="asignaturas" uuid="2fbab450-31c3-4989-97d7-606d271a8db6">
+						<dataSourceExpression><![CDATA[$P{asignaturasDTO}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="80" uuid="0f985679-91cd-471a-9ea3-090811cb67d1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:tableHeader style="Table 1_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="80" height="30" uuid="db930354-8049-4729-ad2d-b91faef0c0bc"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Código"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="80" height="30" uuid="a0d34368-5c0b-4944-b4ce-2250bbbdc8ef"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="260" uuid="f8b83e47-1430-4c85-b31b-673a1fb29d0b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:tableHeader style="Table 1_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="260" height="30" uuid="57458a87-b111-4d81-89d4-d6c3b39fe278"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Asignatura"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="260" height="30" uuid="21087b86-8ecb-4303-921c-33df8e02955d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="128" uuid="31c00adc-528d-483c-a91e-2440d4ce3010">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:tableHeader style="Table 1_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="128" height="30" uuid="faf5b6bd-5b0f-4140-9e0f-823942080018"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Créditos"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="128" height="30" uuid="451ab9c5-10e5-4eaa-8472-abb649311cc8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{creditos}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-1" y="220" width="468" height="20" uuid="3ab9d719-c26a-4dfd-ace2-97583cfe36bc"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.3 Población estudiantil"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-1" y="260" width="468" height="20" uuid="18a8abfa-4b47-4309-a658-fdb23aed9454"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.4 Egresados del programa"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="400">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="2" y="10" width="468" height="20" uuid="0a3eac80-7b8b-4f9b-bf8d-89764d6a3270"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.5 Profesores al servicio del programa"]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="2" y="35" width="467" height="90" uuid="914e18cc-a06e-4fea-a607-21ea84fbf297">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 10_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 10_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 10_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="profesores" uuid="12a8441d-3536-4202-8f71-7c66b54c257a">
+						<dataSourceExpression><![CDATA[$P{dsProfesores}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="100" uuid="bf333cf6-976a-4b54-87dc-41f70ec42422">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:tableHeader style="Table 10_TH" height="60" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="100" height="60" uuid="a394b01b-4580-446e-8e86-05105eecfc90"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Nombres"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 10_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="48a96456-6e5b-48de-8cc1-25e323d220bc"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nombres}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="961e4213-ba94-4e90-97f4-66a56590d8fc">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:tableHeader style="Table 10_TH" height="60" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="80" height="60" uuid="13cf0e47-036d-442b-b978-c35c20591fc4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Apellidos"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 10_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="97f3acc5-207f-4d74-9c6f-ca7045120123"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{apellidos}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="73acf320-0cf1-48d6-9c18-41ca034c225b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:tableHeader style="Table 10_TH" height="60" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="80" height="60" uuid="bd4e3685-5d79-4828-b014-96d3b94a8c3f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Tipo de vinculación"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 10_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="c1bee4d0-b89a-44e8-bb86-261f324d733c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{tipoDeVinculacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="9ff3d2ac-7778-4145-ae13-f04ac872bf38">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:tableHeader style="Table 10_TH" height="60" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="70" height="60" uuid="ac7ca883-0814-45d5-ab34-f63241262ad5"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Escalafon"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 10_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="77ea4229-46ae-4e45-9abb-e28ea57c1f39"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{escalafon}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="da7548c4-8cf7-4cb2-9b84-7f2560f96dc4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:tableHeader style="Table 10_TH" height="60" rowSpan="1">
+							<textField textAdjust="ScaleFont">
+								<reportElement x="0" y="0" width="80" height="60" uuid="c0819d4e-6c2c-4d6b-ac00-81a313b6fe37"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Años experiencia docente"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 10_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="aa663329-e4a4-4df8-bef7-09ae6132ae2b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{anosExpDocente}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="59" uuid="ec799b66-4359-4d9b-ad2f-6cdba163e651">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:tableHeader style="Table 10_TH" height="60" rowSpan="1">
+							<textField textAdjust="ScaleFont">
+								<reportElement x="0" y="0" width="59" height="60" uuid="946c5462-2406-4df2-aad2-4ff0d5f6e108"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Años experiencia profesional"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 10_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="59" height="30" uuid="0db3bdf2-83da-4fa3-bdf4-52b89ff50453"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{aniosExperienciaProfesional}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="2" y="130" width="468" height="20" uuid="b9e94cc6-9c20-4238-8213-28f9dd0849aa"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6 Recursos físicos, informáticos y bibliográficos"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="11" y="160" width="458" height="20" uuid="f301a365-0b4f-40ea-add5-d92269963bcf"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6.1 Infraestructura del programa"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="21" y="190" width="448" height="30" uuid="2c32b45e-4ee6-49c0-ae18-773a0c62170f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{infraestructuraDelPrograma}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="FixRelativeToBottom" x="12" y="230" width="458" height="20" uuid="c980334e-5dcc-45d1-9259-965e26778127"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6.2 Recursos Informáticos y audiovisuales"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="21" y="260" width="448" height="30" uuid="a8f24d7e-2117-4b2c-a90e-01e61ecdda7e"/>
+				<textElement>
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{recursosInformaticos}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="12" y="300" width="458" height="20" uuid="1aa4d22a-cee6-4c3a-b9e4-a4af2e0bdf8c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6.3 Recursos bibliográficos"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="21" y="330" width="448" height="30" uuid="38d842fb-cb5a-4e8b-94dc-17f0caab178e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{recusosBibliografico}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="180">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="13" y="10" width="457" height="20" uuid="a96c2c53-277a-4e3c-ab85-cdd8d3d475a4"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6.4 Bibliotecas de la universidad"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="13" y="80" width="458" height="20" uuid="edcd34dd-1184-4a2c-a8b0-4f9dad632fae"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6.5 Bibliotecas de la facultad"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="22" y="40" width="448" height="30" uuid="8bb397f3-f6e4-41c1-b675-45d0b960d822"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{bibliotecasUniversidad}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="22" y="110" width="448" height="30" uuid="8a2f2483-91ef-4995-b83d-c13e8554838f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{bibliotecasFacultad}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="340">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="1" y="70" width="468" height="20" uuid="2cbab316-2107-40f8-8f55-95200bb321a3"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.1 Comité del Programa"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="0" y="230" width="469" height="20" uuid="71e31c9e-796b-452e-987f-7710fbfc51aa"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.2 Responsable del proceso de autoevaluación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="1" y="30" width="470" height="20" uuid="77700943-f87d-4fc7-bcc8-5f819db1c2b6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2. AUTOEVALUACIÓN Y REGULACIÓN DEL PROGRAMA"]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="1" y="110" width="469" height="90" uuid="0ff94b13-14ec-4cb0-9e5a-890796fe7191">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="comite" uuid="c0981ade-276b-428c-bdb2-fc61deff1b0e">
+						<dataSourceExpression><![CDATA[$P{dsComite}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="467" uuid="4927fa16-c480-4367-9c40-cfbc7d628e1c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [2]"/>
+						<jr:tableHeader style="Table 2_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="467" height="30" uuid="588640ce-3dd0-4b89-8f2d-04f20b62cbff"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Integrantes del comité"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="220" uuid="0d0834ac-78b4-4a05-9ee2-232c6f0c12de">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 2_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="220" height="30" uuid="9768da54-1723-4f74-9f4f-de4dbe1695d4"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="12" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Nombre del integrante"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 2_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="220" height="30" uuid="1a238133-55ce-4a18-9187-106238a8d7f5"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{nombreIntegrante}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="247" uuid="50fd9eb8-baf2-4230-a450-fee78ac85be0">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:tableHeader style="Table 2_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="247" height="30" uuid="602972d2-3d5f-47fa-9819-2dbcda75e48d"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="12" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Cargo"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 2_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="247" height="30" uuid="19bb77e0-ff52-412a-a8f5-0c37786d6425"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{cargo}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement positionType="Float" x="-1" y="260" width="471" height="60" uuid="f2e1da8c-abc4-483f-8a53-f0b0cbe8f01f">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 3_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 3_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 3_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="responsables" uuid="46b437fd-0852-47ad-afda-ec2d52493828">
+						<dataSourceExpression><![CDATA[$P{dsResponsables}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="120" uuid="c1c157cd-9719-445c-a7b6-f440e809b71e">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:tableHeader style="Table 3_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="120" height="30" uuid="73477154-d436-4042-a889-3a40d5350192"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Nombre del responsable"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="120" height="30" uuid="0be3810c-3756-45c7-9f9d-c462c6510015"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nombreResponsable}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="0c4f9bc2-bc5b-4b39-bd8c-9e601dcd585a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:tableHeader style="Table 3_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="90" height="30" uuid="befef64f-d849-4500-a612-5c5b72952d82"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Cargo"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="90" height="30" uuid="d7df972d-1e8f-4aed-adc4-dd3ac7ac5fbe"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{cargo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="ca321a36-25a0-47da-8641-ab757238337c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:tableHeader style="Table 3_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="120" height="30" uuid="78cae37a-486b-47c1-ad3d-15a6e28463ea"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Telefonos"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="120" height="30" uuid="cd8cfc19-ff7d-456e-ad63-9b66fe9ed98e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="141" uuid="976c5a37-f262-4c5e-b33e-71164fd78217">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:tableHeader style="Table 3_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="141" height="30" uuid="c36ccd9f-19de-47ce-ba34-09031be250c9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Correo electrónico"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="141" height="30" uuid="ae0160af-a82b-4531-85ce-c4a180e4c1d9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="400">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-2" y="20" width="470" height="20" uuid="02df739c-235b-4002-a334-6c027facc205"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3. AUTOEVALUACIÓN CON FINES DE ACREDITACIÓN"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-2" y="60" width="470" height="20" uuid="fcee9b62-b7f0-43c8-881d-2a70a0e1f417"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.1 Cronograma de actividades"]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="-2" y="90" width="469" height="90" uuid="9ed26c96-3845-41a7-b4e9-3e0c368eb587">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 4_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 4_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 4_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="cronograma_actividades" uuid="9a0916a3-580e-40a7-a0f4-c4613f38b15f">
+						<dataSourceExpression><![CDATA[$P{dsCronogramaActividades}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="469" uuid="27c36491-132f-43f3-98bb-486c68fbdf9c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [4]"/>
+						<jr:tableHeader style="Table 4_TH" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="469" height="30" uuid="9fd33c4e-e2ca-4a6b-b4e6-b09d2ba4d0c1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Cronograma de actividades"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="120" uuid="1a15f662-dfd3-4f23-8779-9b9c1ddb47c7">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 4_TH" height="30" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="120" height="30" uuid="3d762933-5568-4acd-b948-0c2957ac4cfb"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Nombre"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 4_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="120" height="30" uuid="c94ccf82-a124-464a-bab8-340bf3d05d15"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="150" uuid="6585960e-4d6f-41d8-9b01-1a314d91c5d5">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:tableHeader style="Table 4_TH" height="30" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="150" height="30" uuid="3bd24414-97a7-4b8c-ad0d-fa05c1cb2b78"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Descripción"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 4_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="150" height="30" uuid="09a2d0a2-7d90-497f-b4d4-6ead0797ad8c"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="100" uuid="cdcdcfc1-dc39-4a0f-abf6-2df1310f8e25">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:tableHeader style="Table 4_TH" height="30" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="100" height="30" uuid="52e282e5-279e-4575-9e07-acdb71d1c229"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Fecha inicio"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 4_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="100" height="30" uuid="147789d5-fe7a-4b4e-90af-0511dd9d5d87"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{fechaInicio}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="99" uuid="d9518f02-d6d2-4126-bba4-79c97cda9424">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							<jr:tableHeader style="Table 4_TH" height="30" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="99" height="30" uuid="f7b383c3-e068-4cbf-9244-7ee7a0b199d3"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Fecha fin"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 4_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="99" height="30" uuid="1e2f0705-230f-409d-b325-4b89ff9de7fa"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{fechaFin}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-2" y="200" width="470" height="20" uuid="129fae75-6792-4880-818f-b4e43be53c9a"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.2 Proceso de autoevaluación con fines de acreditación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="7" y="230" width="461" height="20" uuid="4fe431c8-fb6b-4bd4-98df-d3bbed483228"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.2.1 Metodología utilizada para la autoevaluación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="17" y="260" width="450" height="30" uuid="d1909b7b-3fcf-4be2-b0b8-197b319500ca"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{metodologia}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="8" y="300" width="460" height="20" uuid="53ef2b5e-de59-4701-abe2-7471db974f59"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.2.2 Objetivos de la autoevaluación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="17" y="330" width="450" height="30" uuid="75735d4e-2c82-4a92-a7ff-9ca655681a1b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{objetivo}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="270">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="11" y="78" width="460" height="20" uuid="0242a016-f41b-4835-9ff2-e5e103d54586"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.3.1 Documentales"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-1" y="20" width="472" height="20" uuid="1145fd5d-1744-423b-b896-ada3805f969c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.3 Fuentes de información"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" mode="Transparent" x="11" y="48" width="458" height="20" uuid="e325e04e-96d6-402b-a68d-a41da3addab9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Las fuentes de información pueden ser de dos tipos: documentales y no documentales."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" mode="Transparent" x="10" y="108" width="461" height="40" uuid="0bd89a77-bc4b-48c2-88dd-777ae52c61e9"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["En las fuentes documentales se encuentra la historia del programa y de la institución, asi como las politicas, procesos, normas, estadísticas y resultados de la gestión del programa."]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="1" y="158" width="469" height="100" uuid="61ca3007-02cb-476f-9856-ecebdc7aafa6">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 5_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 5_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 5_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="documentales" uuid="c5ea7fce-e12a-4e35-ab0e-0f4ce4767068">
+						<dataSourceExpression><![CDATA[$P{dsDocumentales}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="467" uuid="e924b409-69b3-4fc5-bf27-23496d50efe4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [2]"/>
+						<jr:tableHeader style="Table 5_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="467" height="30" uuid="5943757a-612f-496b-8f35-6e7e88eb579e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Fuentes documentales"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="200" uuid="7a014440-e36d-4967-b7f2-7f4da77ddcd0">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 5_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="200" height="30" uuid="269a8e6c-5291-45f2-a653-1b625af6986a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Tipo de fuentes"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 5_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="200" height="30" uuid="81b67a21-eb44-4998-8465-9b961d67bd25"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{tipoFuente}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="267" uuid="08287f7e-475c-4edd-aaf2-c95cf22ec9d7">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:tableHeader style="Table 5_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="267" height="30" uuid="de68d4f7-7dde-4e46-85ba-19cc64189d86"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Descripción"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 5_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="267" height="30" uuid="fab9063c-0e11-44fd-856b-034d1f80c58d"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="400">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="11" y="12" width="458" height="20" uuid="9ac27569-f15c-4982-881d-bdb1a2144668"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.3.2 No Documentales"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" mode="Transparent" x="1" y="42" width="466" height="30" uuid="e6b3f143-42e8-4cbd-8121-3af3c99a8c76"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Las fuentes no documentales o actores, son los miembros de la comunidad y del sector externo responsables de los hechos que son objeto de evaluación y quienes pueden identificar las fortalezas y debilidades del programa."]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="1" y="82" width="470" height="90" uuid="098f7791-db90-4b8e-a9d1-0ff0ae75bf22">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 6_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 6_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 6_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="noDocumentales" uuid="e86f9939-0329-49d3-a541-d0822b50428d">
+						<dataSourceExpression><![CDATA[$P{dsNoDocumentales}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="470" uuid="6af676da-7f42-49cd-a42b-9afbff43b890">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [3]"/>
+						<jr:tableHeader style="Table 6_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="470" height="30" uuid="7db98a3b-ce3a-44af-86f6-6680af3344a8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Fuentes no documentales"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="110" uuid="0b5b4611-0e5a-4c1a-9b85-e651f0240f21">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 6_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="110" height="30" uuid="1bf18bc6-77bf-414f-a9e4-9d64d329fb48"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Tipo fuente"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 6_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="110" height="30" uuid="e70d42af-4c47-4b24-bc4d-9ce2f24c73be"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{tipoFuente}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="140" uuid="43120842-683d-4f25-bec0-21b40af86094">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:tableHeader style="Table 6_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="140" height="30" uuid="bc33f179-bd6b-4bab-9159-1abafcd120c2"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Tipo publico"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 6_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="140" height="30" uuid="9fd27a3b-6b7a-44c2-a945-96fdaaa2d111"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{tipoPublico}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="220" uuid="4a215b29-d275-4a7f-887b-20bfa10e445b">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:tableHeader style="Table 6_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="220" height="30" uuid="acc34568-0511-4689-b339-539af2e9eb9f"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Descripción"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 6_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="220" height="30" uuid="1180aaa8-1e1d-495a-b1d4-d82c7a696f37"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="1" y="212" width="470" height="20" uuid="bbf760cc-d5da-4c5a-8213-ee2b2fb74fd3"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.4 Métodos de ponderación y calificación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="11" y="242" width="458" height="20" uuid="43894fe3-18f6-4e57-b65d-832fc77e2cbd"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.4.1 Ponderación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" mode="Transparent" x="9" y="272" width="462" height="122" uuid="77a98d0f-c67a-47ad-98aa-0e9d5be0bb8e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Teniendo en cuenta que la ponderación es la asignación de pesos distintos a las diversas características, que resulta del análisis cualitativo de la incidencia de cada característica en una totalidad determinada por la naturaleza del programa y por el proyecto institucional, justifique el método utilizado." +
+"Una vez terminado el proceso de ponderación, se procede a determinar el grado de cumplimiento de cada característica, es decir la calificación, para lo cual puede utilizar una escala que puede ser numérica o no numérica. A continuación, justifique la escala que el programa utilizó."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="460">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<componentElement>
+				<reportElement positionType="Float" mode="Transparent" x="0" y="340" width="469" height="120" uuid="e6bf9c54-13e9-4cf5-9710-b112ce10d10b">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 7_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 7_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 7_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ponderacionFactores" uuid="4b44cc44-3c9a-4623-a7b5-a27830dbbd89">
+						<dataSourceExpression><![CDATA[$P{dsPonderacionFactores}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="465" uuid="ad2ac0b4-4543-4fea-80fd-131c1ec351da">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [3]"/>
+						<jr:tableHeader style="Table 7_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="465" height="30" uuid="dc25e4da-c148-4e91-ab90-e95be9e863ff"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Ponderación Factores"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:tableFooter style="Table 7_TH" height="30" rowSpan="1"/>
+						<jr:column width="140" uuid="26bb5815-03a6-4fe0-827a-5c1f71d63b65">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 7_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="140" height="30" uuid="a01e6782-e6b2-4d94-bd96-d2c848945eea"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Nombre del factor"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:tableFooter style="Table 7_TH" height="30" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="140" height="30" uuid="be6d25fe-7006-4942-947c-d06c64a75c02"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Total"]]></textFieldExpression>
+								</textField>
+							</jr:tableFooter>
+							<jr:detailCell style="Table 7_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="140" height="30" uuid="894c8108-bf65-4e25-9983-b76283599170"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="6afcc414-efeb-4aa3-9e02-ec8ab806e69a">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:tableHeader style="Table 7_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="90" height="30" uuid="1b80947e-d336-432c-978d-d6f16bb332f1"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Ponderado"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:tableFooter style="Table 7_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="90" height="30" uuid="cfe36d3a-a361-476b-a79c-635e68c67591"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$V{sumaPonderado}]]></textFieldExpression>
+								</textField>
+							</jr:tableFooter>
+							<jr:detailCell style="Table 7_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="90" height="30" uuid="9d983de6-249c-4ff1-ad29-b848182594b5"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{ponderado}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="235" uuid="644fd442-dba8-460d-a160-3e7389dcf8dd">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:tableHeader style="Table 7_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="235" height="30" uuid="0ad1d4dd-38c7-4164-ad43-a169f6cb2e49"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Justificación"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:tableFooter style="Table 7_TH" height="30" rowSpan="1"/>
+							<jr:detailCell style="Table 7_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="235" height="30" uuid="708fa5aa-482f-4a11-9528-eb02a78bb7e3"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{justificacion}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="11" y="20" width="460" height="20" uuid="6ef73a8e-b74b-446d-889a-c73cd6b888c5"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.4.2 Calificación"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" mode="Transparent" x="11" y="50" width="460" height="67" uuid="b9e72f92-200c-4bcc-89b0-701a65d48335"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Información de la escala de calificación: De la combinación de la ponderación de cada característica con la calificación de su grado de cumplimiento se obtiene la valoración de las características y del factor al que pertenecen."
++
+"A continuación se presenta la escala de calificación definida."]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="2" y="130" width="467" height="90" uuid="f4e56c4b-d0fb-47ad-8e71-ec1431441d08">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 9_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 9_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 9_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="escalaCalificacion" uuid="c5bef512-72dd-492d-90de-ccb9ab2f2c99">
+						<dataSourceExpression><![CDATA[$P{dsEscalaCalificacion}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="100" uuid="661294ea-c7e4-439d-9323-7458f6869cc7">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:tableHeader style="Table 9_TH" height="60" rowSpan="2">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="100" height="60" uuid="14e4131d-516e-4915-81a4-ca888a2c6f44"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Grado de cumplimiento"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 9_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="100" height="30" uuid="b8c4ff6d-450e-4753-8af4-a85b6cb09d45"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{gradoCumplimiento}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="72" uuid="39b4b82c-4c52-4a3a-85bb-b7ec97ee02e3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:tableHeader style="Table 9_TH" height="60" rowSpan="2">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="72" height="60" uuid="c44fe1db-bae0-48a2-8e08-34ab370c077d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Calificación no numérica"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:detailCell style="Table 9_TD" height="30">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="72" height="30" uuid="c40a792a-6cce-48b6-ac5a-d62eb0e801b8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calNoNumerica}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:columnGroup width="144" uuid="e44d98dc-a55e-4510-a6d8-f3e0346f895a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [2]"/>
+						<jr:tableHeader style="Table 9_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="144" height="30" uuid="b1a5511d-3b2b-481d-985a-c034019abf85"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Calificación numérica"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="72" uuid="7e9e9478-8065-4a77-815b-c3ff08d1e5d4">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:tableHeader style="Table 9_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="c6ee0322-e1a9-4c44-8f5a-4097815e2a0a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Desde"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="71e7f56f-a4e4-4bec-8d63-5878f4752b81"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{calNumericaDesde}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="72" uuid="b7c05171-add6-4479-aad0-8188c670d924">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							<jr:tableHeader style="Table 9_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="97302ec2-94a7-46c2-bc6e-a3c99c159e5e"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Hasta"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="cf1c2da3-27bd-4ebf-8856-d69b0c86829f"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{calNumericaHasta}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:columnGroup width="144" uuid="d5656e17-9a5a-4aac-91da-61d45e609e02">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [2]"/>
+						<jr:tableHeader style="Table 9_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="144" height="30" uuid="e19d066d-ff69-464f-9b61-4fd4507c809e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Valor porcentaje"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="72" uuid="16713745-6489-4ff3-8c0c-4261ea6eadc9">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+							<jr:tableHeader style="Table 9_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="ebf3690f-a5ac-4698-a18c-2e6f5617f1ef"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Desde"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="4cd5be10-4edd-4461-856a-30ae8daf1fb1"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{calPorcentajeDesde}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="72" uuid="dd3b4451-a6b7-498d-9aee-5e4f72e5309e">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+							<jr:tableHeader style="Table 9_TH" height="30" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="c58f1561-163e-4b00-9f82-ae3ab53870fb"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Hasta"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="72" height="30" uuid="48463159-3967-4660-800b-8cfa5cff887d"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{calPorcentajeHasta}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="-1" y="250" width="472" height="20" uuid="9edd026a-1076-4bcb-b711-0551db57c815"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.5 Ponderación de factores y características"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="9" y="280" width="462" height="20" uuid="2748964e-eff9-4c2a-8488-5464ea9e7dda"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.5.1 Ponderación de factores"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" mode="Transparent" x="9" y="311" width="460" height="19" uuid="9d7fd714-f00d-4155-a554-a1fa7c104470"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["A continuación se define la ponderación de factores"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="200">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<componentElement>
+				<reportElement positionType="Float" x="2" y="59" width="467" height="130" uuid="bcd9120e-15ae-46ea-918d-a3b5acf40f1e">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 8_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 8_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 8_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ponderacionCaracteristicas" uuid="98265369-3ce9-4a39-813c-4ca148cbc4d1">
+						<dataSourceExpression><![CDATA[$P{dsPonderacionCaracteristicas}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="465" uuid="2998b87c-d69f-45a7-bfe2-0672476abffc">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [4]"/>
+						<jr:tableHeader style="Table 8_TH" height="30" rowSpan="1">
+							<textField textAdjust="StretchHeight">
+								<reportElement x="0" y="0" width="465" height="30" uuid="64640e5b-9c56-4bc8-af1e-bdd5add2c96a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Monospaced" size="11" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA["Ponderación de características"]]></textFieldExpression>
+							</textField>
+						</jr:tableHeader>
+						<jr:column width="140" uuid="76407dc2-ddca-4f68-94a7-68cce47a9ac1">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:tableHeader style="Table 8_TH" height="34" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="140" height="34" uuid="b86f5515-fd16-4d52-8b29-0771180d15ba"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Nombre"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:tableFooter style="Table 8_TH" height="30" rowSpan="2">
+								<textField>
+									<reportElement x="0" y="0" width="140" height="30" uuid="478f3ca9-8004-4cc8-afee-ed4b3d0042fd"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Total"]]></textFieldExpression>
+								</textField>
+							</jr:tableFooter>
+							<jr:detailCell style="Table 8_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="140" height="30" uuid="b50296fc-c758-4e4a-8412-53fd7ea961ed"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="70" uuid="9cbfd690-f6e7-4220-b4c6-6b4a380827da">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:tableHeader style="Table 8_TH" height="34" rowSpan="1">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="70" height="34" uuid="4bb83ee4-7de2-42de-86b5-ffd31e78b2ec"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced" size="11" isBold="true"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Ponderado"]]></textFieldExpression>
+								</textField>
+							</jr:tableHeader>
+							<jr:tableFooter style="Table 8_TH" height="30" rowSpan="2">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="70" height="30" uuid="7b4f49d8-f144-4079-9d67-0508bdbf44fa"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$V{totalPonderado}]]></textFieldExpression>
+								</textField>
+							</jr:tableFooter>
+							<jr:detailCell style="Table 8_TD" height="30">
+								<textField textAdjust="StretchHeight">
+									<reportElement x="0" y="0" width="70" height="30" uuid="555f387d-c49e-49af-bd6b-74a45c4c40a7"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Monospaced"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{ponderado}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:columnGroup width="255" uuid="6e5dd4a8-5b94-4654-9ad8-04db26298bc8">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [2]"/>
+							<jr:tableFooter style="Table 8_TH" height="30" rowSpan="1"/>
+							<jr:column width="130" uuid="1b6c1f87-77d0-4ebb-ba9f-c1b2a74d8a7b">
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+								<jr:tableHeader style="Table 8_TH" height="34" rowSpan="1">
+									<textField textAdjust="StretchHeight">
+										<reportElement x="0" y="0" width="130" height="34" uuid="e56fba21-18c2-4aaa-9f34-461ff2fdc92b"/>
+										<textElement textAlignment="Center" verticalAlignment="Middle">
+											<font fontName="Monospaced" size="11" isBold="true"/>
+										</textElement>
+										<textFieldExpression><![CDATA["Justificación"]]></textFieldExpression>
+									</textField>
+								</jr:tableHeader>
+								<jr:tableFooter style="Table 8_TH" height="0" rowSpan="1"/>
+								<jr:detailCell style="Table 8_TD" height="30">
+									<textField textAdjust="StretchHeight">
+										<reportElement x="0" y="0" width="130" height="30" uuid="5e44e989-e5b5-41e8-9262-e48f6302b357"/>
+										<textElement textAlignment="Center" verticalAlignment="Middle">
+											<font fontName="Monospaced"/>
+										</textElement>
+										<textFieldExpression><![CDATA[$F{justificacion}]]></textFieldExpression>
+									</textField>
+								</jr:detailCell>
+							</jr:column>
+							<jr:column width="125" uuid="bff328eb-809f-466d-b165-d2521e4136ac">
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+								<jr:tableHeader style="Table 8_TH" height="34" rowSpan="1">
+									<textField textAdjust="StretchHeight">
+										<reportElement x="0" y="0" width="125" height="34" uuid="fa78f587-cea5-4937-8868-98fc01c33f7a"/>
+										<textElement textAlignment="Center" verticalAlignment="Middle">
+											<font fontName="Monospaced" size="11" isBold="true"/>
+										</textElement>
+										<textFieldExpression><![CDATA["Factor al que pertenece"]]></textFieldExpression>
+									</textField>
+								</jr:tableHeader>
+								<jr:tableFooter style="Table 8_TH" height="0" rowSpan="1"/>
+								<jr:detailCell style="Table 8_TD" height="30">
+									<textField textAdjust="StretchHeight">
+										<reportElement x="0" y="0" width="125" height="30" uuid="835643b0-47ad-4305-8c37-6738719ad3c0"/>
+										<textElement textAlignment="Center" verticalAlignment="Middle">
+											<font fontName="Monospaced"/>
+										</textElement>
+										<textFieldExpression><![CDATA[$F{factor}]]></textFieldExpression>
+									</textField>
+								</jr:detailCell>
+							</jr:column>
+						</jr:columnGroup>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" mode="Transparent" x="21" y="40" width="451" height="19" uuid="169bf95b-c53a-4536-9fcf-52d72077ba89"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Monospaced" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["A continuación se define la ponderación de factores"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="12" y="20" width="459" height="20" uuid="20cb64ba-7740-45d7-8c25-873a2241d21c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.5.2 Ponderación de caraterísticas"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="120">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="0" y="10" width="470" height="20" uuid="d3e87c70-40cd-4fe2-a15c-ec48c573f429"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["4. INFORMACIÓN PARA AUTOEVALUACIÓN"]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="30" width="469" height="60" uuid="142635bc-725e-4ef1-b65f-c25928450112"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="titulosFactoresYCaracteristicas" uuid="93c775cb-a56f-439b-8657-a45083134250">
+						<dataSourceExpression><![CDATA[$P{tituloFactoresYCaracteristicas}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="60" width="469">
+						<textField textAdjust="StretchHeight">
+							<reportElement x="0" y="0" width="469" height="30" uuid="cb19f35f-565f-468a-adbb-66ad92c3a46c"/>
+							<textElement textAlignment="Left">
+								<font fontName="Monospaced" size="11" isBold="true" isUnderline="false"/>
+							</textElement>
+							<textFieldExpression><![CDATA["Factor " + $F{idFactor}  + " " + $F{factor}]]></textFieldExpression>
+						</textField>
+						<componentElement>
+							<reportElement positionType="Float" x="20" y="30" width="449" height="30" uuid="b2a6f622-0c59-4625-9e30-17033c3955d4"/>
+							<jr:list printOrder="Vertical">
+								<datasetRun subDataset="caracteristicas" uuid="cd682b0d-3a8d-401e-a127-6aa71ce141ac">
+									<dataSourceExpression><![CDATA[$F{listaCaracteristicas}]]></dataSourceExpression>
+								</datasetRun>
+								<jr:listContents height="30" width="449">
+									<textField textAdjust="StretchHeight">
+										<reportElement x="0" y="0" width="419" height="30" uuid="3d2a14ae-efe8-4369-86da-0b258291f8a5">
+											<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+										</reportElement>
+										<textElement>
+											<font fontName="Monospaced" isBold="true"/>
+											<paragraph leftIndent="10"/>
+										</textElement>
+										<textFieldExpression><![CDATA["Característica " + $F{idCaracteristica}+" " + $F{nombreCaracteristica}]]></textFieldExpression>
+									</textField>
+								</jr:listContents>
+							</jr:list>
+						</componentElement>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+		</band>
+		<band height="400">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement positionType="Float" x="0" y="0" width="470" height="20" uuid="c2edf1d7-9f3c-4b0f-9f33-b07e53fcd474"/>
+				<textElement textAlignment="Center">
+					<font fontName="Monospaced" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["5. RESULTADO DE LA AUTOEVALUACIÓN"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="2" y="20" width="469" height="20" uuid="f3bc67f8-c94c-41fc-9377-b6c7cbb7bda2"/>
+				<textElement textAlignment="Left">
+					<font fontName="Monospaced" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["5.1 Informe por factor, características y aspectos a evaluar"]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="1" y="50" width="468" height="349" uuid="72dfe9da-825b-4daa-bde3-e22333b497c8"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="resultadosAutoevaluacion" uuid="9a1b5313-d452-475e-a15b-a5273eca7c14">
+						<dataSourceExpression><![CDATA[$P{resultadosEvaluacion}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="349" width="468">
+						<componentElement>
+							<reportElement positionType="Float" x="0" y="30" width="468" height="140" uuid="ae9a2ec7-e7f5-4894-8e85-a5389724b958"/>
+							<jr:list printOrder="Vertical">
+								<datasetRun subDataset="listaDeCaracteristicas" uuid="f1a38a48-04ab-494b-ba8e-f0c4d6b188b3">
+									<dataSourceExpression><![CDATA[$F{listaCaracteristicas}]]></dataSourceExpression>
+								</datasetRun>
+								<jr:listContents height="140" width="468">
+									<textField textAdjust="StretchHeight">
+										<reportElement positionType="Float" x="0" y="0" width="468" height="40" uuid="af9c2cd7-7524-4435-b8cd-1f74375036df"/>
+										<textElement textAlignment="Left" verticalAlignment="Middle">
+											<font fontName="Monospaced" size="11" isBold="true"/>
+										</textElement>
+										<textFieldExpression><![CDATA["Característica " + $F{idCaracteristica} +" " + $F{nombreCaracteristica}]]></textFieldExpression>
+									</textField>
+									<componentElement>
+										<reportElement positionType="Float" x="1" y="50" width="467" height="90" uuid="2f2a70a0-1126-4b5b-b518-c7a3667d182b">
+											<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+											<property name="com.jaspersoft.studio.table.style.table_header" value="Table 11_TH"/>
+											<property name="com.jaspersoft.studio.table.style.column_header" value="Table 11_CH"/>
+											<property name="com.jaspersoft.studio.table.style.detail" value="Table 11_TD"/>
+										</reportElement>
+										<jr:table>
+											<datasetRun subDataset="tablaAspectos" uuid="b272cd8a-04bf-43ea-865b-a005e7bddaca">
+												<dataSourceExpression><![CDATA[$F{listaAspectos}]]></dataSourceExpression>
+											</datasetRun>
+											<jr:columnGroup width="366" uuid="0d69d397-1f25-4a48-b78a-2941012217c2">
+												<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [3]"/>
+												<jr:tableFooter style="Table 11_TH" height="30" rowSpan="1">
+													<textField textAdjust="StretchHeight">
+														<reportElement x="0" y="0" width="366" height="30" uuid="552a0ae4-4159-40ad-adc5-9bdd8d349692"/>
+														<textElement textAlignment="Center" verticalAlignment="Middle"/>
+														<textFieldExpression><![CDATA["Grado de cumplimiento"]]></textFieldExpression>
+													</textField>
+												</jr:tableFooter>
+												<jr:column width="180" uuid="63b4253d-61ae-4c6b-bcbb-b8d46417d26d">
+													<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+													<jr:tableHeader style="Table 11_TH" height="30" rowSpan="1">
+														<textField textAdjust="StretchHeight">
+															<reportElement x="0" y="0" width="180" height="30" uuid="c8a893a7-fa69-427d-9bd7-488efcbe93d5"/>
+															<textElement textAlignment="Center" verticalAlignment="Middle">
+																<font fontName="Monospaced"/>
+															</textElement>
+															<textFieldExpression><![CDATA["Aspectos a evaluar"]]></textFieldExpression>
+														</textField>
+													</jr:tableHeader>
+													<jr:tableFooter style="Table 11_TH" height="0" rowSpan="1"/>
+													<jr:detailCell style="Table 11_TD" height="30">
+														<textField textAdjust="StretchHeight">
+															<reportElement x="0" y="0" width="180" height="30" uuid="1e11e673-3860-4a53-ae8d-5a65018cc956">
+																<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+																<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+															</reportElement>
+															<textElement textAlignment="Justified" verticalAlignment="Top">
+																<font fontName="Monospaced"/>
+																<paragraph leftIndent="5" rightIndent="5"/>
+															</textElement>
+															<textFieldExpression><![CDATA[$F{aspecto}]]></textFieldExpression>
+														</textField>
+													</jr:detailCell>
+												</jr:column>
+												<jr:column width="93" uuid="36261528-81bd-4e4a-8113-902332f6fe2b">
+													<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+													<jr:tableHeader style="Table 11_TH" height="30" rowSpan="1">
+														<textField textAdjust="StretchHeight">
+															<reportElement x="0" y="0" width="93" height="30" uuid="ee673431-e1d2-43e9-928b-fd529bb1c468"/>
+															<textElement textAlignment="Center" verticalAlignment="Top">
+																<font fontName="Monospaced"/>
+															</textElement>
+															<textFieldExpression><![CDATA["Ponderación (P)"]]></textFieldExpression>
+														</textField>
+													</jr:tableHeader>
+													<jr:tableFooter style="Table 11_TH" height="0" rowSpan="1"/>
+													<jr:detailCell style="Table 11_TD" height="30">
+														<textField textAdjust="StretchHeight">
+															<reportElement x="0" y="0" width="93" height="30" uuid="17a19add-1c82-4353-a9b7-fc78f89c161d"/>
+															<textElement textAlignment="Center" verticalAlignment="Middle">
+																<font fontName="Monospaced"/>
+															</textElement>
+															<textFieldExpression><![CDATA[$F{ponderacion}]]></textFieldExpression>
+														</textField>
+													</jr:detailCell>
+												</jr:column>
+												<jr:column width="93" uuid="9a7eb694-94fa-41c3-b761-275cb2094e4e">
+													<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+													<jr:tableHeader style="Table 11_TH" height="30" rowSpan="1">
+														<textField textAdjust="StretchHeight">
+															<reportElement x="0" y="0" width="93" height="30" uuid="bbeb98e9-220e-4771-a1e5-9951efd050d1"/>
+															<textElement textAlignment="Center" verticalAlignment="Top">
+																<font fontName="Monospaced"/>
+															</textElement>
+															<textFieldExpression><![CDATA["Calificación (C)"]]></textFieldExpression>
+														</textField>
+													</jr:tableHeader>
+													<jr:tableFooter style="Table 11_TH" height="0" rowSpan="1"/>
+													<jr:detailCell style="Table 11_TD" height="30">
+														<textField textAdjust="StretchHeight">
+															<reportElement x="0" y="0" width="93" height="30" uuid="466d76af-6f70-49dc-bfe1-3e1f95191eb0"/>
+															<textElement textAlignment="Center" verticalAlignment="Middle">
+																<font fontName="Monospaced"/>
+															</textElement>
+															<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+														</textField>
+													</jr:detailCell>
+												</jr:column>
+											</jr:columnGroup>
+											<jr:column width="101" uuid="7145f6e4-93bc-49f2-b02d-e7706bfd4352">
+												<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+												<jr:tableHeader style="Table 11_TH" height="30" rowSpan="1">
+													<textField textAdjust="StretchHeight">
+														<reportElement x="0" y="0" width="101" height="30" uuid="5c2665cb-910a-4cd2-9b04-64c6973ed744"/>
+														<textElement textAlignment="Center" verticalAlignment="Top">
+															<font fontName="Monospaced"/>
+														</textElement>
+														<textFieldExpression><![CDATA["Evaluación (PxC)"]]></textFieldExpression>
+													</textField>
+												</jr:tableHeader>
+												<jr:tableFooter style="Table 11_TH" height="30" rowSpan="2">
+													<textField>
+														<reportElement x="0" y="0" width="101" height="30" uuid="b84e5c67-d7b5-41a4-b7ce-c5dcb91a0d58"/>
+														<textElement textAlignment="Center" verticalAlignment="Middle">
+															<font fontName="Monospaced" isBold="true"/>
+														</textElement>
+														<textFieldExpression><![CDATA[$V{totalEvaluacion}]]></textFieldExpression>
+													</textField>
+												</jr:tableFooter>
+												<jr:detailCell style="Table 11_TD" height="30">
+													<textField textAdjust="StretchHeight">
+														<reportElement x="0" y="0" width="101" height="30" uuid="f686cff8-391b-4cec-a770-174996eaa0b3"/>
+														<textElement textAlignment="Center" verticalAlignment="Middle">
+															<font fontName="Monospaced"/>
+														</textElement>
+														<textFieldExpression><![CDATA[($F{ponderacion}.doubleValue() * $F{calificacion}.doubleValue()) / 100]]></textFieldExpression>
+													</textField>
+												</jr:detailCell>
+											</jr:column>
+										</jr:table>
+									</componentElement>
+								</jr:listContents>
+							</jr:list>
+						</componentElement>
+						<textField textAdjust="StretchHeight">
+							<reportElement positionType="Float" x="0" y="0" width="468" height="30" uuid="e142613b-1f39-43aa-823d-007bb174f724"/>
+							<textElement textAlignment="Left" verticalAlignment="Middle">
+								<font fontName="Monospaced" size="12" isBold="true"/>
+							</textElement>
+							<textFieldExpression><![CDATA["Factor " + $F{idFactor} +" " + $F{factor}]]></textFieldExpression>
+						</textField>
+						<componentElement>
+							<reportElement positionType="Float" x="0" y="230" width="468" height="102" uuid="f57d8f8b-c3c5-41f3-8b26-8886ba548334">
+								<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+								<property name="com.jaspersoft.studio.table.style.table_header" value="Table 12_TH"/>
+								<property name="com.jaspersoft.studio.table.style.column_header" value="Table 12_CH"/>
+								<property name="com.jaspersoft.studio.table.style.detail" value="Table 12_TD"/>
+							</reportElement>
+							<jr:table>
+								<datasetRun subDataset="apreciacionFactor" uuid="1d5cccb0-1759-42b8-a6a9-ae4a18069d97">
+									<dataSourceExpression><![CDATA[$F{apreciacionGlobalFactor}]]></dataSourceExpression>
+								</datasetRun>
+								<jr:columnGroup width="282" uuid="3f7d7136-d3db-4cc0-8d38-f034fefbeac6">
+									<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [3]"/>
+									<jr:tableFooter style="Table 12_TH" height="22" rowSpan="1">
+										<textField>
+											<reportElement x="0" y="0" width="282" height="22" uuid="36f48311-f2f1-4916-84ae-29833d4ef775"/>
+											<textElement textAlignment="Center" verticalAlignment="Middle"/>
+											<textFieldExpression><![CDATA["Grado de cumplimiento"]]></textFieldExpression>
+										</textField>
+									</jr:tableFooter>
+									<jr:column width="170" uuid="b2491d3d-0ea0-4f8c-af8a-856cde5de5ad">
+										<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+										<jr:tableHeader style="Table 12_TH" height="50" rowSpan="1">
+											<textField textAdjust="StretchHeight">
+												<reportElement x="0" y="0" width="170" height="50" uuid="3c67c725-98bf-4672-81f2-c15e50010d8e"/>
+												<textElement textAlignment="Center" verticalAlignment="Middle">
+													<font fontName="Monospaced" isBold="true"/>
+												</textElement>
+												<textFieldExpression><![CDATA["Característica"]]></textFieldExpression>
+											</textField>
+										</jr:tableHeader>
+										<jr:tableFooter style="Table 12_TH" height="0" rowSpan="1"/>
+										<jr:detailCell style="Table 121_TD.1" height="30">
+											<textField textAdjust="StretchHeight">
+												<reportElement x="0" y="0" width="170" height="30" uuid="51cba229-69bf-46b3-9fa6-b099b2bcf61e">
+													<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+													<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+												</reportElement>
+												<textElement textAlignment="Justified">
+													<paragraph leftIndent="5" rightIndent="5"/>
+												</textElement>
+												<textFieldExpression><![CDATA[$F{desCaracteristica}]]></textFieldExpression>
+											</textField>
+										</jr:detailCell>
+									</jr:column>
+									<jr:column width="56" uuid="e1fdb1cc-459a-4115-a22f-da33c1042a08">
+										<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+										<jr:tableHeader style="Table 12_TH" height="50" rowSpan="1">
+											<textField textAdjust="StretchHeight">
+												<reportElement x="0" y="0" width="56" height="50" uuid="f07abfe3-0cdf-46f1-aa45-72f2a5da4a0b"/>
+												<textElement textAlignment="Center" verticalAlignment="Middle">
+													<font fontName="Monospaced" isBold="true"/>
+												</textElement>
+												<textFieldExpression><![CDATA["Ponderación"]]></textFieldExpression>
+											</textField>
+										</jr:tableHeader>
+										<jr:tableFooter style="Table 12_TH" height="0" rowSpan="1"/>
+										<jr:detailCell style="Table 12_TD" height="30">
+											<textField>
+												<reportElement x="0" y="0" width="56" height="30" uuid="93cc258f-980c-4341-9b59-bdb54e1007c6"/>
+												<textElement textAlignment="Center" verticalAlignment="Middle">
+													<font fontName="Monospaced"/>
+												</textElement>
+												<textFieldExpression><![CDATA[$F{ponderado}]]></textFieldExpression>
+											</textField>
+										</jr:detailCell>
+									</jr:column>
+									<jr:column width="56" uuid="632fcd3a-dc53-4d62-841b-98ab7899185d">
+										<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+										<jr:tableHeader style="Table 12_TH" height="50" rowSpan="1">
+											<textField textAdjust="StretchHeight">
+												<reportElement x="0" y="0" width="56" height="50" uuid="187743df-a459-4140-b03e-bc37bfed461e"/>
+												<textElement textAlignment="Center" verticalAlignment="Middle">
+													<font fontName="Monospaced" isBold="true"/>
+												</textElement>
+												<textFieldExpression><![CDATA["Calificación"]]></textFieldExpression>
+											</textField>
+										</jr:tableHeader>
+										<jr:tableFooter style="Table 12_TH" height="0" rowSpan="1"/>
+										<jr:detailCell style="Table 12_TD" height="30">
+											<textField>
+												<reportElement x="0" y="0" width="56" height="30" uuid="871d6e14-74fa-4229-8edf-fb254045fd99"/>
+												<textElement textAlignment="Center" verticalAlignment="Middle">
+													<font fontName="Monospaced"/>
+												</textElement>
+												<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+											</textField>
+										</jr:detailCell>
+									</jr:column>
+								</jr:columnGroup>
+								<jr:column width="56" uuid="c2aa0ffe-b838-4643-830b-0b157f45a8a7">
+									<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+									<jr:tableHeader style="Table 12_TH" height="50" rowSpan="1">
+										<textField textAdjust="StretchHeight">
+											<reportElement x="0" y="0" width="56" height="50" uuid="eb2f2b5c-0c8c-43b0-8eb4-27702d247217"/>
+											<textElement textAlignment="Center" verticalAlignment="Middle">
+												<font fontName="Monospaced" isBold="true"/>
+											</textElement>
+											<textFieldExpression><![CDATA["Evaluación"]]></textFieldExpression>
+										</textField>
+									</jr:tableHeader>
+									<jr:tableFooter style="Table 12_TH" height="22" rowSpan="2"/>
+									<jr:detailCell style="Table 12_TD" height="30">
+										<textField>
+											<reportElement x="0" y="0" width="56" height="30" uuid="e6ca4145-5b45-438d-a643-3876195acbbb"/>
+											<textElement textAlignment="Center" verticalAlignment="Middle">
+												<font fontName="Monospaced"/>
+											</textElement>
+											<textFieldExpression><![CDATA[$F{evaluacion}]]></textFieldExpression>
+										</textField>
+									</jr:detailCell>
+								</jr:column>
+								<jr:column width="130" uuid="51d85ce3-1f8d-4e60-b255-c6211e5a3044">
+									<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+									<jr:tableHeader style="Table 12_TH" height="50" rowSpan="1">
+										<textField textAdjust="StretchHeight">
+											<reportElement x="0" y="0" width="130" height="50" uuid="054693ad-6d5a-4dcc-a73f-708d17463886"/>
+											<textElement textAlignment="Center" verticalAlignment="Middle">
+												<font fontName="Monospaced" isBold="true"/>
+											</textElement>
+											<textFieldExpression><![CDATA["Grado de cumplimiento no numérica"]]></textFieldExpression>
+										</textField>
+									</jr:tableHeader>
+									<jr:tableFooter style="Table 12_TH" height="22" rowSpan="2"/>
+									<jr:detailCell style="Table 12_TD" height="30">
+										<textField>
+											<reportElement x="0" y="0" width="130" height="30" uuid="8dff34b4-d5d3-4001-b90b-38f7f40cff99"/>
+											<textElement textAlignment="Center" verticalAlignment="Middle">
+												<font fontName="Monospaced"/>
+											</textElement>
+											<textFieldExpression><![CDATA[$F{calificacionNoNumerica}]]></textFieldExpression>
+										</textField>
+									</jr:detailCell>
+								</jr:column>
+							</jr:table>
+						</componentElement>
+						<textField textAdjust="StretchHeight">
+							<reportElement positionType="Float" x="0" y="190" width="468" height="40" uuid="ec446467-6888-4ded-8033-740ad7c62eae"/>
+							<textElement textAlignment="Left" verticalAlignment="Middle">
+								<font fontName="Monospaced" isBold="true"/>
+							</textElement>
+							<textFieldExpression><![CDATA["Apreciación global del factor " + $F{idFactor} + " " + $F{factor}]]></textFieldExpression>
+						</textField>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER}.compareTo( 1 )!=0]]></printWhenExpression>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="-70" y="0" width="610" height="54" uuid="87f5206f-c7a3-45ba-8ea2-3cbfd402e675"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Monospaced" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER}.compareTo( 1 )!=0]]></printWhenExpression>
+		</band>
+	</summary>
+</jasperReport>
