@@ -1,6 +1,6 @@
 -- Insertar catalogo de roles
-INSERT INTO cat_rol (nombre, descripcion) VALUES ('administrador', 'Rol de administrador con todos los permisos');
-INSERT INTO cat_rol (nombre, descripcion) VALUES ('coordinador', 'Rol de coordinador con permisos limitados');
+INSERT INTO cat_rol (id,nombre, descripcion) VALUES (1,'administrador', 'Rol de administrador con todos los permisos');
+INSERT INTO cat_rol (id,nombre, descripcion) VALUES (2,'coordinador', 'Rol de coordinador con permisos limitados');
 
 -- Insertar usuario administrador por defecto
 INSERT INTO tbl_usuario (correo, password, id_rol) VALUES ('administrador@unicauca.edu.co', '$2a$10$YNHEExCPHbhgGByNSRJqhe23pBJcI7Gx4D2O12afjzm9kapuV24Lu', 1);
